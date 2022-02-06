@@ -1,0 +1,41 @@
+body
+{
+    color:silver;
+    background-color: teal;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+    margin-right;
+    margin-left;
+}
+
+header , footer
+{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a
+{
+    color:black;
+    text-decoration: none;
+
+}
+
+a:hover
+{
+    color:greenyellow;
+}
+
+main
+{
+    text-align: center;
+}
+
+ul 
+{
+    text-align: left;
+}
+
+.hero-image 
+{
+    width: 250px;
+}
