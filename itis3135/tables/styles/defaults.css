@@ -3,8 +3,7 @@ body
     color:silver;
     background-color: teal;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
-    margin-right: 100px;
-    margin-left: 100px
+    margin-right 100px;
 }
 
 header , footer
