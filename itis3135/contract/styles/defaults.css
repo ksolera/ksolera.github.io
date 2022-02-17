@@ -1,10 +1,10 @@
 body
 {
-    color: #00F2F2;
-    background-color: #096B72;
+    color:silver;
+    background-color: teal;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
     margin-right;
-   
+    margin-left;
 }
 
 header , footer
@@ -28,4 +28,14 @@ a:hover
 main
 {
     text-align: center;
+}
+
+ul 
+{
+    text-align: left;
+}
+
+.hero-image 
+{
+    width: 250px;
 }
