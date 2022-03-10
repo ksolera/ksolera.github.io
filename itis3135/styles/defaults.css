@@ -24,7 +24,15 @@ a:hover
     color:greenyellow;
 }
 
+h2
+{
+    text-align: center;
+}
 
+p 
+{
+    text-align: center;
+}
 
 .hero-image
 {
