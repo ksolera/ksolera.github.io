@@ -9,9 +9,18 @@
         <div data-include="components/header.html"></div>
         <main>
             <h2>First Java Script</h2>
+            <h3 id="timeanddate">placeholder</h3>
+            <p>
+                What is your name: &nbsp;<input type="text" name="name" id="name" placeholder="Enter your name">
+                <br>
+                How are you feeling today: &nbsp;<input type="text" id="feeling" name="feeling" placeholder="Enter how you are feeling">
+                <br>
+                <input onclick="getResponce();" type="button" name="submit" id="submit" value="Click Me!" class="script-button">
+            </p>
+            <h3 id="output">placeholder</h3>
         </main>
         <div data-include="components/footer.html"></div>
         <script src="scripts/HTMLInclude.js"></script>
-    </body>
-    
+        <script src="scripts/defaultscripts.js"></script>
+    </body>  
 </html>
