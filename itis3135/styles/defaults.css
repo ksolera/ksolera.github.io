@@ -65,13 +65,19 @@ table
     align-content: center;
 }
 
-thead , tfoot
-{
-    background-color: orange;
-}
 
 tbody tr:nth-child(odd)
 {
-background-color: brown;
+background-color: lightblue;
 }
 
+tbody tr:nth-child(even)
+{
+background-color: lightgreen;
+}
+
+.center
+{
+    margin-left: auto;
+    margin-right: auto;
+}
