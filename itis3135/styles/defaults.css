@@ -62,18 +62,19 @@ td , th
 
 table
 {
-    align-content: center;
+    color: black;
+
 }
 
 
 tbody tr:nth-child(odd)
 {
-background-color: lightblue;
+background-color: blue;
 }
 
 tbody tr:nth-child(even)
 {
-background-color: lightgreen;
+background-color: lightblue;
 }
 
 .center
