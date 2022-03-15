@@ -69,12 +69,12 @@ table
 
 tbody tr:nth-child(odd)
 {
-background-color: blue;
+background-color: lightskyblue;
 }
 
 tbody tr:nth-child(even)
 {
-background-color: lightblue;
+background-color: white;
 }
 
 .center
