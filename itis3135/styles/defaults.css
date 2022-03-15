@@ -24,7 +24,7 @@ a:hover
     color:greenyellow;
 }
 
-h2
+h2 , h3
 {
     text-align: center;
 }
@@ -47,7 +47,7 @@ form
     text-align: center;
 }
 
-#itis3135-home
+#itis3135-home , #feeling-input
 {
     text-align: center;
 }
