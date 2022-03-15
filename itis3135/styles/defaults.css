@@ -81,14 +81,11 @@ background-color: white;
 {
     margin-left: auto;
     margin-right: auto;
+    display: table;
+
 }
 
 .department-color
 {
     background-color: lightskyblue;
-}
-
-.center-text
-{
-    text-align: center;
 }
