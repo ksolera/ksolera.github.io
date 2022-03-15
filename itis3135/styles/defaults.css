@@ -52,7 +52,7 @@ form
     text-align: center;
 }
 
-th , td
+td
 {
     border: 2px, solid black;
     padding: .2em 1em .2em .5em;
