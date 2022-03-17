@@ -2,8 +2,11 @@ body
 {
     color:silver;
     background-color: teal;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
-    margin-right;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 header , footer
