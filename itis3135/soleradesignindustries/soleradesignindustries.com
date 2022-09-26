@@ -19,7 +19,7 @@
         <footer>
             
                 <div>
-                    <p>Created by <a href="https://webpages.charlotte.edu/ksolera2/itis3135/soleradesignindustries.html">Solera Design Industries &copy;2022.</a></p>
+                    <p>Created by <a href="https://webpages.charlotte.edu/ksolera2/itis3135/soleradesignindustries/soleradesignindustries.com">Solera Design Industries &copy;2022.</a></p>
                 <p>
                     <a href="https://jigsaw.w3.org/css-validator/check/referer">
                         <img src="https://ksolera.github.io/itis3135/images/button_validation_css.png">
