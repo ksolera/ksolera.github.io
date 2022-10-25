@@ -4,6 +4,7 @@
         <meta charset="utf-8">
         <title>Keilor Solera - ITIS3135 - Kryptonite Salamander - Calculator Try </title>
         <link rel="stylesheet" href="styles/defaults.css" type="text/css" />
+        <script src="styles/calculator_try.js" ></script>
     </head>
     <body>
         <div data-include="components/header.html"></div>
@@ -13,6 +14,32 @@
                 <p>Enter the digits or click the numberpad.</p>
                 <input type="text" class="numpad" value id="text" >
                 <br>
+                <div class="previous-operand" data-previous-operand></div>
+                <div class="current-operand" data-current-operand></div>
+
+                <input type="reset" class="numpad" value="C" id="clear">
+                <input type="button" class="numpad" value="+/-" id="pos-or-neg">
+                <input type="button" class="numpad" value="%" id="percent">
+                <input type="button" class="numpad" value="/" id="divide"><br>
+
+                <input type="button" class="numpad" value="7" id="b7">
+                <input type="button" class="numpad" value="8" id="b8">
+                <input type="button" class="numpad" value="9" id="b9">
+                <input type="button" class="numpad" value="*" id="multiply"><br>
+
+                <input type="button" class="numpad" value="4" id="b4">
+                <input type="button" class="numpad" value="5" id="b5">
+                <input type="button" class="numpad" value="6" id="b6">
+                <input type="button" class="numpad" value="-" id="minus"><br>
+
+                <input type="button" class="numpad" value="1" id="b1">
+                <input type="button" class="numpad" value="2" id="b2">
+                <input type="button" class="numpad" value="3" id="b3">
+                <input type="button" class="numpad" value="+" id="add"><br>
+
+                <input type="button" class="numpad" value="0" id="b0">
+                <input type="button" class="numpad" value="." id="decimal" >
+                <input type="button" class="numpad" value="=" id="equal">
             </form>
         </main>
         <div data-include="components/footer.html"></div>
