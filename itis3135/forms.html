@@ -11,6 +11,7 @@
         <main>
             <h2>HTML Forms</h2>
             <form action="#">
+                
                 <label for="name"><strong>Name: </strong></label>
                 <br>
                 <input type="text" id="name" name="name" placeholder="First and Last Name" required>
@@ -33,10 +34,16 @@
                 <label for="football"><input id="football" value="football" type="checkbox" name="favsport"> Football</label>
                 <label for="basketball"><input id="basketball" value="basketball" type="checkbox" name="favsport"> Basketball</label>
                 </section>
+                <br>
+                <label for="subcribe">Do you want to subscribe: </label>
+                <select name="subcribe" >
+                    <option value="Yes">Yes</option> 
+                    <option value="No">No</option>      
+                </select>
                 <br><br>
                 <button type="submit" class="submit">Submit</button>
                 <button type="reset" class="reset">Reset</button>
-                <br>       
+                <br>   
             </form>
             <br>
         </main>
