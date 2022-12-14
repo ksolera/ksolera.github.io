@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slideshow Page</title>
+    <link rel="stylesheet" href="styles/defaults.css">
+</head>
+<body id="index">
+    <div data-include="components/header.html"></div>
+    <main>
+        <h2>Slideshow</h2>
+        <div id="slideshow">
+            <div class="slide_img fade">
+                <figure><img src="images/sala1.jpg"></figure>
+                <figcaption>A picture of my mascot!</figcaption>
+            </div>
+            
+            <div class="slide_img fade">
+                <figure><img src="images/sala2.jpg"></figure>
+                <figcaption>And more salamaders...</figcaption>
+            </div>
+            
+            <div class="slide_img fade">
+                <figure><img src="images/stadium.jpg"></figure>
+                <figcaption>I love watching live soccer. </figcaption>
+            </div>
+
+            <div class="slide_img fade">
+                <figure><img src="images/coffee.jpg"></figure>
+                <figcaption>I enjoy coffee </figcaption>
+            </div>
+
+            <div class="slide_img fade">
+                <figure><img src="images/coffee2.jpg"></figure>
+                <figcaption>Coffee machines are the best. </figcaption>
+            </div>
+
+            <div class="slide_img fade">
+                <figure><img src="images/huskey.jpg"></figure>
+                <figcaption>Mans best friend</figcaption>
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <!-- The dots/circles -->
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
+            <span class="dot" onclick="currentSlide(6)"></span>
+        </div>
+    </main>
+    <div data-include="components/footer.html"></div>
+    <script src="scripts/HTMLInclude.js"></script>
+    <script src="scripts/slideshow.js"></script>
+</body>
+</html>
