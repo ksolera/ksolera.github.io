@@ -180,6 +180,11 @@ background-color: white;
 	grid-column: -2;
 	grid-row: 2 / span 4;
   }
+  figure > img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 
   /* Slideshow container */
 .slideshow {
