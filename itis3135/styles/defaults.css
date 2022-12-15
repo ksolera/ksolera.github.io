@@ -259,3 +259,33 @@ background-color: white;
     from {opacity: .4}
     to {opacity: 1}
   }
+
+  #slideshow img {
+    position: absolute; 
+  }
+  .swap {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width:  100px;
+      height: 100px;
+      object-fit: cover;
+      border: 3px solid #555;
+  }
+  li {
+      display: inline;
+      padding: 4px;
+  }
+  
+  .inline {
+      display:flex;
+      justify-content:center;
+      }
+  
+  #image {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+      border: 3px solid #555;
+  }

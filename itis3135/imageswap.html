@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imageswap Page</title>
+    <link rel="stylesheet" href="styles/defaults.css"> 
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+</head>
+<body id="index">
+    <div data-include="components/header.html"></div>
+    <main>
+        <h2>Image Swap</h2>
+        <ul id="image_list">
+            <div class="inline">
+            <li><a href="images/coffee.jpg" title="Coffee1">
+                <img src="images/coffee.jpg" alt="" class="swap">
+            </a></li>
+            <li><a href="images/coffee2.jpg" title="Coffee2">
+                <img src="images/coffee2.jpg" alt="" class="swap">
+            </a></li></div>
+        </ul>
+         
+        <p><img src="images/coffee2.jpg" alt="" id="image"></p>
+    </main>
+    <div data-include="components/footer.html"></div>
+    <script src="scripts/HTMLInclude.js"></script>
+    <script src="scripts/activity10.js"></script>
+</body>
+</html>
