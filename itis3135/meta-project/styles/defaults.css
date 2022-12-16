@@ -18,3 +18,193 @@ header , footer
 h2{
     text-align: center;
 }
+
+form{
+    text-align: center;
+}
+p {
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+figcaption{
+text-align: center;
+font-family: 'Times New Roman', Times, serif;
+}
+.slideshow {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    width: auto;
+    padding: 2%;
+    margin-top: -19%;
+    margin-left: 23%;
+    margin-right: 23%;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  
+  .prev {
+    left: 11px;
+    border-radius: 3px 0 0 3px;
+  }
+  /* Position the "next button" to the right */
+  .next {
+    right: 11px;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  
+  
+  .slide_img > figcaption, .slide > figcaption {
+    padding: 30px;
+  }
+  
+  .slide_img > figure > img,  .slide > figure > img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border: 3px solid #555;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: rgb(104, 103, 103);
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #920f0f;
+  }
+  
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  .swap {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:  100px;
+    height: 100px;
+    object-fit: cover;
+    border: 3px solid #555;
+  }
+  li {
+    display: inline;
+    padding: 4px;
+  }
+  
+  .inline {
+    display:flex;
+    justify-content:center;
+    }
+  
+  #image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    border: 3px solid #555;
+  }
+  
+ 
+  
+  .inputs {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+  
+  #comments {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+  }
+  
+  .reviews {
+    font-style: italic;
+  
+  }
+  .checked {
+    color: orange;
+  }
+  
+  
+  #id_pager {
+      text-align: center;
+      font-size: 90%;
+      color: green;
+  }
+  
+  #slider > li > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20%;
+    width: 100%;
+    border: 3px solid #555;
+  }
+  .bx-wrapper {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .bx-wrapper .bx-pager {
+    text-align: center;
+    font-size: .85em;
+    font-family: Arial;
+    font-weight: bold;
+    color: #666;
+    padding-top: 20px;
+  }
+  .bx-wrapper .bx-next:hover,
+  .bx-wrapper .bx-next:focus {
+    background-position: -43px 0;
+  }
+  .bx-wrapper .bx-controls-direction a {
+    display: none;
+  }
+  .bx-wrapper .bx-controls-direction a.disabled {
+    display: none;
+  }

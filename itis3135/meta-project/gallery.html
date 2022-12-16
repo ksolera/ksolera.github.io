@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gallery Page</title>
     <link rel="stylesheet" href="styles/defaults.css">
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
 </head>
 <body>
     <header>
@@ -17,11 +18,88 @@
              |
             <a href="gallery.html">Gallery</a>
              |
-            <a href="contact.html">Contact</a>
+            <a href="contact.html">Become a mentor</a>
+             |
+            <a href="location.html">Location and Events</a>
         </nav>
     </header>
     <main>
         <h2>Photo Gallery of META</h2>
+        <div id="slideshow">
+            <div class="slide_img fade">
+                <figure><img src="images/meta2.JPG" class="center"></figure>
+                <figcaption>Youth making art with newspaper clippings</figcaption>
+            </div>
+            
+            <div class="slide_img fade">
+                <figure><img src="images/meta3.JPG" class="center"></figure>
+                <figcaption>Youth making art with newspaper clippings</figcaption>
+            </div>
+            
+            <div class="slide_img fade">
+                <figure><img src="images/meta4.JPG" class="center"></figure>
+                <figcaption>Youth making art with newspaper clippings </figcaption>
+            </div>
+
+            <div class="slide_img fade">
+                <figure><img src="images/meta5.JPG" class="center"></figure>
+                <figcaption>Youth making art with newspaper clippings</figcaption>
+            </div>
+
+            <div class="slide_img fade">
+                <figure><img src="images/meta6.JPG" class="center"></figure>
+                <figcaption>Youth making art with newspaper clippings </figcaption>
+            </div>
+
+            <div class="slide_img fade">
+                <figure><img src="images/meta7.JPG" class="center"></figure>
+                <figcaption>Youth making art with newspaper clippings</figcaption>
+            </div>
+
+            <div class="slide_img fade">
+                <figure><img src="images/meta8.JPG" class="center"></figure>
+                <figcaption>Youth making art with newspaper clippings</figcaption>
+            </div>
+
+            <div class="slide_img fade">
+                <figure><img src="images/meta10.JPG" class="center"></figure>
+                <figcaption>Youth making art with newspaper clippings</figcaption>
+            </div>
+
+            <div class="slide_img fade">
+                <figure><img src="images/meta11.JPG" class="center"></figure>
+                <figcaption>Youth making art with newspaper clippings</figcaption>
+            </div>
+
+            <div class="slide_img fade">
+                <figure><img src="images/meta13.JPG" class="center"></figure>
+                <figcaption>Youth making art with newspaper clippings</figcaption>
+            </div>
+
+            <div class="slide_img fade">
+                <figure><img src="images/meta12.JPG" class="center"></figure>
+                <figcaption>Youth making art with newspaper clippings</figcaption>
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <!-- The dots/circles -->
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
+            <span class="dot" onclick="currentSlide(6)"></span>
+            <span class="dot" onclick="currentSlide(7)"></span>
+            <span class="dot" onclick="currentSlide(8)"></span>
+            <span class="dot" onclick="currentSlide(9)"></span>
+            <span class="dot" onclick="currentSlide(10)"></span>
+            <span class="dot" onclick="currentSlide(11)"></span>
+            
+        </div>
     </main>
+    <script src="scripts/slideshow.js"></script>
 </body>
 </html>

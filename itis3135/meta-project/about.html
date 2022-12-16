@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Page</title>
     <link rel="stylesheet" href="styles/defaults.css">
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
 </head>
 <body>
     <header>
@@ -17,11 +18,28 @@
              |
             <a href="gallery.html">Gallery</a>
              |
-            <a href="contact.html">Contact</a>
+            <a href="contact.html">Become a mentor</a>
+             |
+            <a href="location.html">Location and Events</a>
         </nav>
     </header>
     <main>
         <h2>About Me</h2>
+        <ul id="image_list">
+            <div class="inline">
+            <li><a href="images/fabbi1.JPG" title="Fabbi1">
+                <img src="images/fabbi1.JPG" alt="" class="swap">
+            </a></li>
+            <li><a href="images/fabbi2.JPG" title="Fabbi2">
+                <img src="images/fabbi2.JPG" alt="" class="swap">
+            </a></li></div>
+        </ul>
+         
+        <p><img src="images/fabbi2.JPG" alt="" id="image"></p>
+        <h3>Background:</h3>
+        <p>I was born in Ecuador and raised there until I was 13. My family moved to Charlotte, NC and have lived here ever since. I love to go on hikes, travel, and go to concerts! I have always had a passion for teaching, especifically others in needs.</p>
+        <p>I started this Organization because many foreign born students did not have a proper program or introduction and would find themselves in difficult spots in school. I love to help others and is my passion.</p>
     </main>
+    <script src="scripts/imageswap.js"></script>
 </body>
 </html>
